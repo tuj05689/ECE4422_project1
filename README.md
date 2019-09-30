@@ -1,6 +1,6 @@
 <h1>Digital Control Systems Project 1</h1>
 
-Full code and files can be found [here](https://github.com/DonStoddard5/ECE4422/tree/master/ece4422project1).
+Full code and files can be found [here](https://github.com/tuj05689/ECE4422_project1).
 
 <h2>Wiring the system</h2>
 
