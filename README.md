@@ -6,7 +6,7 @@ Full code and files can be found [here](https://github.com/tuj05689/ECE4422_proj
 
 In order to run the code, you must first wire up the hardware.
 
-![Wiring diagram](/ece4422project1/readmeImages/WireDiagramProject1.jpg)
+![Wiring diagram](/ECE4422_project1/readmeImages/WireDiagramProject1.jpg)
 
 <h3>For the servo</h3>
 
@@ -28,7 +28,7 @@ In order to run the code, you must first wire up the hardware.
 
 For reference, here is a different picture of the Raspberry Pi I/O pins
 
-![Raspberry Pi Diagram](/ece4422project1/readmeImages/raspberry_pi_circuit_note_fig2a.jpg)
+![Raspberry Pi Diagram](/ECE4422_project1/readmeImages/raspberry_pi_circuit_note_fig2a.jpg)
 
 <h2>Running the Code</h2>
 
@@ -37,23 +37,23 @@ You'll find the basicIMU.py file under: /ece4422project1/IMU-Servos/basicIMU.py
 
 When you run it, you'll be prompted to enter an angle
 
-![Input Prompt](/ece4422project1/readmeImages/basicIMU_firstInput.jpg)
+![Input Prompt](/ECE4422_project1/readmeImages/basicIMU_firstInput.jpg)
 
 This number (in degrees), will move the servo that far from where it currently is. If the input is positive, the servo will move clockwise. If it's negative, the servo will move counter-clockwise.
 
 If the value is past the range of the servo, you'll get an error and will have to restart the program. This is a bug that needs to be fixed.
 
-![Error Prompt](/ece4422project1/readmeImages/error.JPG)
+![Error Prompt](/ECE4422_project1/readmeImages/error.JPG)
 
 <h3>fixedIMU.py</h3>
 You'll find the fixedIMU.py file under: /ece4422project1/IMU-Servos/fixedIMU.py
 
 When you run it, you'll be prompted to enter an angle
 
-![Input Prompt](/ece4422project1/readmeImages/fixedIMU_firstInput.jpg)
+![Input Prompt](/ECE4422_project1/readmeImages/fixedIMU_firstInput.jpg)
 
 This number (in degrees), will move the servo that far from where it currently is. If the input is positive, the servo will move clockwise. If it's negative, the servo will move counter-clockwise. From there, the program goes into a loop. The servo arm will move to stay in the same orientation as you physically rotate the servo around.
 
 If the value is past the range of the servo, you'll get an error and will have to restart the program. This is a bug that needs to be fixed.
 
-![Error Prompt](/ece4422project1/readmeImages/error.JPG)
+![Error Prompt](/ECE4422_project1/readmeImages/error.JPG)
